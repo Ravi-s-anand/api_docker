@@ -9,8 +9,6 @@ def homepage():
         data = {"data": "Welcome to my Homepage"}
         return jsonify(data)
 
-
-
 @app.route('/biodata', methods=['POST'])
 def biodata():
     if(request.method == 'POST'):
